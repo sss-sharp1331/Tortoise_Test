@@ -32,9 +32,9 @@ Result :
 API Methods CREATED : 
 
 Promotion APIs for partners : 
-GET http://localhost:8000/api/plan/ -> Gets the list of all existing plans 
-POST http://localhost:8000/api/plan/ -> Posts the plan in our SQL DB. 
-GET http://localhost:8000/api/user/  -> Gets the data of Users and their plans 
-POST http://localhost:8000/api/user/ -> Posts the user data in our SQL DB. 
+GET http://localhost:8000/api/plan/ -> Gets the list of all existing plans. <br /> 
+POST http://localhost:8000/api/plan/ -> Posts the plan in our SQL DB.  <br />
+GET http://localhost:8000/api/user/  -> Gets the data of Users and their plans.  <br />
+POST http://localhost:8000/api/user/ -> Posts the user data in our SQL DB.  <br />
 
 APIs can be accessed by running the server
