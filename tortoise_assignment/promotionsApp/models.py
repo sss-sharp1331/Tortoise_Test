@@ -30,7 +30,3 @@ class UserData(models.Model):
     selectedTenure = models.TextField(null=False)
     startedDate = models.DateTimeField(null=True)
     depositedAmount = models.IntegerField(null=False)
-
-
-#    def __unicode__(self):
-#        return '%s' % self.userID
