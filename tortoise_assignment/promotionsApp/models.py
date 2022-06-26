@@ -14,9 +14,9 @@ class PlanInfo(models.Model):
     tenureOptions = models.TextField()
     benefitPercentage = models.IntegerField()
     benefitType = models.CharField(
-        choices=benifit_types, default=VOUCHER, max_length=256),
-    startedDate = models.DateTimeField(null=True),
-    usersNumber = models.IntegerField(null=True),
+        choices=benifit_types, default=VOUCHER, max_length=256)
+    startedDate = models.DateTimeField(null=True)
+    usersNumber = models.IntegerField(null=True)
     timePeriod = models.IntegerField(null=True)
 
 
